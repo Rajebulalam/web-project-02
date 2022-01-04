@@ -123,3 +123,15 @@ p{
 }
 
 /* End Experience Part */
+
+
+/* Start Footer Part */
+
+#footer-area{
+    padding: 20px 0;
+}
+#footer-area p{
+    text-align: center;
+}
+
+/* Start Footer Part */
