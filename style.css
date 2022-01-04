@@ -7,11 +7,15 @@
 body{
     font-family: 'Poppins', sans-serif;
 } 
+h1{
+    font-size: 50px;
+}
 h2{
     font-size: 40px;
 }
 .flexible-area{
     display: flex;
+    margin: 0 0 30px;
 }
 .child-half{
     flex-basis: 50%;
@@ -55,11 +59,26 @@ p{
     margin: 0 0 20px;
 }
 
-/* Start Banner Area */
+/* End Banner Area */
 
 
-/* Start Baner Part */
+/* Start Dream Part */
 
+#dream-area{
+    background: url(images/dream-bg.png) no-repeat;
+    background-position: right;
+}
+#dream-area .child-half:last-child{
+    padding: 0;
+}
+#dream-area h2{
+    padding: 20px 0 40px;
+}
+#dream-area h3{
+    padding-bottom: 10px;
+}
+#dream-area P{
+    padding-bottom: 20PX;
+}
 
-
-/* End Baner Part */
+/* End Dream Part */
