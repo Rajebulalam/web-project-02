@@ -9,6 +9,8 @@ body{
 } 
 h1{
     font-size: 50px;
+    font-weight: 600;
+    padding: 10px 0;
 }
 h2{
     font-size: 40px;
@@ -82,3 +84,42 @@ p{
 }
 
 /* End Dream Part */
+
+
+
+/* Start Experience Part */
+
+#experience-area .inner-experience{
+    background: url(images/exp-bg.png) no-repeat;
+    background-position: left;
+}
+#experience-area .inner-experience h2{
+    font-size: 35px;
+    padding: 10px 0;
+}
+#experience-area .inner-experience .child-experience{
+    flex-basis: 50%;
+    margin: 20px 5%;
+    padding: 30px 0 30px 30px;
+    box-shadow: 10px 10px 40px gray;
+    flex-direction: space-between;
+}
+#experience-area .inner-experience .child-experience:last-child{
+    margin-left: 0;
+}
+#experience-area .inner-experience .child-experience h3{
+    color: orange;
+    padding: 5px 0;
+}
+#experience-area .inner-experience #left-border{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#experience-area .inner-experience #right-border{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, orange);
+    border-image-slice: 1;
+}
+
+/* End Experience Part */
