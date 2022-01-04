@@ -40,6 +40,9 @@ p{
     text-decoration: none;
     border-radius: 5px;
 }
+.link:hover{
+    text-decoration: underline;
+}
 /* End Typography */
 
 
@@ -134,4 +137,4 @@ p{
     text-align: center;
 }
 
-/* Start Footer Part */
+/* End Footer Part */
