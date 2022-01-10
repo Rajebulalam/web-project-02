@@ -1,0 +1,45 @@
+/*		Tablet Layout: 768px   */
+
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+	
+    .flexible-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #dream-area .child-half:last-child{
+        padding: 20px 5%;
+    }
+    .change-order-1{
+        order: 2;
+    }
+    .change-order-2{
+        order: 1;
+    }
+    
+    #experience-area .inner-experience .child-experience:last-child {
+        margin-left: 5%;
+    }
+	
+}
+
+
+
+/*		Mobile Layout: 320px     */
+
+@media only screen and (max-width: 767px) {
+	
+	#dream-area {
+        background: none;
+    }
+    .child-half {
+        margin: 0 0 20px;
+    }
+    #dream-area .child-half:last-child {
+        padding: 0 5%;
+    }
+    #dream-area h2 {
+        padding: 0 0 20px;
+    }
+	
+}
